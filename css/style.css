@@ -2,3 +2,10 @@
 	font-family: IranSans;
 	src: url("/../fonts/IRANSans.ttf") format("truetype"), url("/../fonts/IRANSansWeb.woff") format("woff"), url("/../fonts/IRANSansWeb.woff2") format("woff2");
 }
+body {
+	font-family: IranSans, Tahoma, Geneva, Verdana, sans-serif;
+	direction: rtl;
+	color: #fff;
+	font-size: 16px;
+	min-height: 100vh;
+}
