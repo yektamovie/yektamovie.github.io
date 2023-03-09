@@ -6,10 +6,31 @@ body {
 	font-family: IranSans, Tahoma, Geneva, Verdana, sans-serif;
 	direction: rtl;
 	color: #fff;
-	font-size: 16px;
+	font-size: 1em;
 	min-height: 100vh;
+        margin: 0;
+	padding: 0;
+	outline: 0;
+	color: #fff;
+        text-align: center;
+	direction: rtl;
+	background-color:#101014;
+	box-sizing: border-box;text-decoration: none;
+
 }
 h1{
+	font-size: 1.2em;
+	user-select: none;
+	font-weight: 500;
+text-align: center;
+}
+h3{
+	font-size: 1.2em;
+	user-select: none;
+	font-weight: 500;
+text-align: center;
+}
+h2{
 	font-size: 1.2em;
 	user-select: none;
 	font-weight: 500;
@@ -21,13 +42,9 @@ text-align: center;
 	color: #ccc;
 	font-weight: 200;
 }
-	* {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	color: #fff;
-text-align: center;
-	direction: rtl;
-	background-color:#101014;
-	box-sizing: border-box;text-decoration: none;
+.download-icon{
+       width: 1em;
+	fill: #fff;
+	margin-left: 8px;
+	transition: all 0.3s ease;
 }
