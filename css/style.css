@@ -21,3 +21,13 @@ text-align: center;
 	color: #ccc;
 	font-weight: 200;
 }
+	* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	color: #fff;
+text-align: center;
+	direction: rtl;
+	background-color:#101014;
+	box-sizing: border-box;text-decoration: none;
+}
