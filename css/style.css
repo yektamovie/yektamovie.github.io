@@ -14,7 +14,7 @@ body {
 	color: #fff;
         text-align: center;
 	direction: rtl;
-	background-color:#101014;
+	background-color:#1c1c22;
 	box-sizing: border-box;text-decoration: none;
 
 }
@@ -25,7 +25,7 @@ text-align: center;
 }
 .version{
         font-size:0.6em;
-	user-select: none;
+	text-align: center;
 	color: #ccc;
 	font-weight: 200;
 }
@@ -36,15 +36,14 @@ text-align: center;
 	transition: all 0.3s ease;
 }
 .dow{
-display: flex;
-color: #fff;
-	flex-flow: row nowrap;
+        color: #fff;
 	align-items: center;
 	font-size: 1.3em;
 	padding: 0.5rem 2rem;
 	border: 1px solid #aaa;
 	border-radius: 1rem;
 	transition: all 0.3s ease;
+        text-decoration: none;
 }
 img{
 width: 100%;
