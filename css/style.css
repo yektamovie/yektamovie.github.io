@@ -3,6 +3,7 @@
 	src: url("/./../font/IRANSans.ttf") format("truetype"), url("/./../font/IRANSansWeb.woff") format("woff"), url("/./../font/IRANSansWeb.woff2") format("woff2");
 }
 body {
+text-decoration: none;
 	font-family: IranSans, Tahoma, Geneva, Verdana, sans-serif;
 	direction: rtl;
 	color: #fff;
@@ -36,7 +37,7 @@ text-align: center;
 	transition: all 0.3s ease;
 }
 .dow{
-        color: #fff;
+        color: #fff;text-decoration: none;
 	align-items: center;
 	font-size: 1.3em;
 	padding: 0.5rem 2rem;
@@ -50,3 +51,4 @@ width: 100%;
 height: auto;
 text-align: center;
 }
+a{text-decoration: none;}
