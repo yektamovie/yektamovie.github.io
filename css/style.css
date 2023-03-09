@@ -9,3 +9,14 @@ body {
 	font-size: 16px;
 	min-height: 100vh;
 }
+h1{
+	font-size: 1.2em;
+	user-select: none;
+	font-weight: 500;
+}
+.version{
+        font-size:0.6em;
+	user-select: none;
+	color: #ccc;
+	font-weight: 200;
+}
